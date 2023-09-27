@@ -1,0 +1,368 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    text-decoration: none !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+    color: #FFA500;
+}
+
+.head-bac-img {
+    background-image: url("./about-header_photo.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* color */
+    height: 38vw;
+}
+
+.nav-bar {
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    min-width: 100%;
+    /* background-color: #8d8686;
+    border-radius: 3rem; */
+    /* margin-top: 20px; */
+    z-index: 1;
+}
+
+.nav-bar-righthead {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-bar-page1 {
+    color: #FFA500;
+    padding: 10px 35px;
+    border-radius: 8px;
+    transition: 700ms;
+}
+
+.nav-bar-page {
+    color: #FFA500;
+    transition: 700ms;
+}
+
+.nav-bar-page-2 {
+    border: 1px solid #0336FF;
+    background-color: #0336FF;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+
+
+.nav-bar-page1:hover {
+    transform: scale(1.1);
+    border: 1px solid #0336FF;
+    background-color: #0336FF;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+
+
+.nav-bar-page:hover {
+    background-color: #0336FF;
+    transform: scale(1.1);
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.nav-bar-page3:hover {
+    transform: scale(1.1);
+    border: 1px solid #0336FF;
+    background-color: #0336FF;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+
+.nav-bar-page4:hover {
+    transform: scale(1.1);
+    border: 1px solid #0336FF;
+    background-color: #0336FF;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.content p {
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.col-6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.part2-foto {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-12_p1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46.88px;
+}
+
+.col-12_p2 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.part2 p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 40px;
+    margin-bottom: 10rem;
+}
+
+.mb-6 {
+    margin-bottom: 40px;
+}
+
+.sec_top-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec_top {
+    display: flex;
+    gap: 50px;
+}
+
+.sec_bottom {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.top_sec-text-1 h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.top_sec-text-1 p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.bottom_sec-text-1 h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.bottom_sec-text-1 p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.small-photos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EDEDED;
+}
+
+.lorem-cards p {
+    padding: 15px 50px;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.lorem-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.lorem-cards span {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.col-12_p1 span {
+    border-bottom: 2px solid;
+}
+
+
+
+/* ------------small - card--------------- */
+
+.small_pfotos_foot {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.small_pfoto_foot {
+    width: 20vw;
+}
+
+.social-mwdia-foot-photo_div:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.social-mwdia-foot-photo_div {
+    transition: 700ms;
+    position: absolute;
+    text-align: center;
+    border: 1px solid #0336FF;
+    background-color: #0336FF;
+    padding: 13px 9px 0;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.social-mwdia-foot-photo_text {
+    color: white;
+}
+
+.foot-small-photo_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.foot-small-photo_bottom_text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.foot-input {
+    padding: 0px 80px 0px 0px;
+    border-color: #C4C4C4;
+    border-radius: 5px;
+}
+
+.foot-small-photo_bottom-input {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-butn {
+    background-color: #0336FF;
+    padding: 20px;
+    /* border-color: #0336FF; */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 700ms;
+}
+
+.foot-butn:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.footr-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid #C4C4C4;
+    padding: 20px;
+}
+
+.foot-Page {
+    color: black;
+    transition: 500ms;
+}
+
+footer {
+    background-color: #535353;
+}
+
+.foot-Page:hover {
+    color: #FFA500;
+}
+
+.footr-text_divs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #EEEEEE;
+    padding: 40px;
+}
+
+.footr-text_lorem {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.footr-text-2_div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footr_part-2-logos {
+    display: flex;
+    gap: 10px;
+}
+.footr-text-3-p{
+    transition: 500ms;
+}
+.footr-text-3-p:hover {
+    color: #FFA500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.footr_part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #EEEEEE;
+    padding: 30px;
+}
+
+.footr_part-2_text {
+    color: #EEEEEE;
+}
